@@ -99,6 +99,6 @@ RSpec.configure do |config|
   AllureRspec.configure do |allureConfig|
     allureConfig.results_directory = 'reports/allure-results'
     allureConfig.logging_level = Logger::INFO
-    allureConfig.clean_results_directory = true
+    allureConfig.clean_results_directory = false
   end
 end
